@@ -8,12 +8,18 @@ name = "rpslib"
 
 [[bin]]
 name = "main"
-path = "src/examples/main.rs"
+path = "examples/main.rs"
 
 [[bin]]
 name = "random_game"
-path = "src/examples/randomgame.rs"
+path = "examples/randomgame.rs"
 
 [dependencies]
 rustc-serialize = "*"
 rand = "*"
+sodiumoxide = "*"
+t_bang = "0.1.2"
+
+[[example]]
+name = "wip"
+path = "examples/wip.rs"
