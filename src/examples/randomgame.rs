@@ -25,7 +25,7 @@ fn main() {
     	let stdin = io::stdin();
     	stdin.lock().read_line(&mut a_move).unwrap();
 
-		let randomNumber = rng.gen_range(1, 3);
+		let randomNumber = rng.gen_range(1, 4);
 		if (randomNumber == 1) {
 			if (a_move == "1\n") {
 				println!("you selected rock");
