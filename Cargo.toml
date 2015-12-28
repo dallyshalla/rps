@@ -12,3 +12,4 @@ path = "src/examples/main.rs"
 
 [dependencies]
 rustc-serialize = "*"
+rand = "*"
